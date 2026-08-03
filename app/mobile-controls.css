@@ -3,6 +3,7 @@
 .float.chat{background:#25d366!important}
 .float.chat:before,.float.chat:after{display:none}
 .float.chat img{width:25px;height:25px;filter:brightness(0) invert(1)}
+.footer-contact{max-width:310px}.footer-contact .contact-phone{display:grid;gap:1px}.footer-contact .contact-phone b{color:#fff}.footer-contact .contact-phone span{font-size:10px;color:var(--gold);font-weight:800;letter-spacing:.08em}.footer-contact>a{line-height:1.45}.footer-contact p{margin:13px 0 0;font-size:12px;line-height:1.55}.footer-contact p b{color:#fff}
 .float.top{bottom:139px;background:#fff;color:var(--navy);border:1px solid #dbe2e8;font-size:21px;font-weight:700;opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .2s,transform .2s}
 .float.top.visible{opacity:1;pointer-events:auto;transform:translateY(0)}
 @media(max-width:780px){
