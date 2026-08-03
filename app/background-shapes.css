@@ -1,0 +1,8 @@
+.split,.process,.articles,.intro,.faq{position:relative;isolation:isolate;overflow:hidden}
+.split:before,.process:after,.articles:before,.intro:after,.faq:before{content:"";position:absolute;z-index:-1;pointer-events:none}
+.split:before{width:300px;height:300px;right:-125px;top:12px;border:42px solid rgba(244,180,0,.08);border-radius:50%}
+.process:after{width:460px;height:210px;left:-180px;bottom:24px;background:linear-gradient(135deg,rgba(0,51,102,.055),rgba(0,51,102,0));transform:skewX(-28deg)}
+.articles:before{width:360px;height:360px;right:-150px;top:20px;border:1px solid rgba(0,51,102,.11);border-radius:50%;box-shadow:0 0 0 36px rgba(244,180,0,.045),0 0 0 82px rgba(0,51,102,.035)}
+.intro:after{width:180px;height:180px;left:-94px;bottom:12px;border:28px solid rgba(244,180,0,.07);transform:rotate(45deg)}
+.faq:before{width:220px;height:220px;right:-100px;bottom:42px;background:radial-gradient(circle,rgba(244,180,0,.12) 0 3px,transparent 4px);background-size:19px 19px;opacity:.6}
+@media(max-width:780px){.split:before{width:200px;height:200px;right:-110px}.articles:before{width:220px;height:220px}.process:after{width:300px}.faq:before{opacity:.36}}
