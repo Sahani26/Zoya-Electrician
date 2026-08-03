@@ -1,5 +1,8 @@
 .mobile-menu{display:none}
-.float.chat span{font:800 10px/1 var(--font-sans);letter-spacing:.04em}
+.float.chat{isolation:isolate}
+.float.chat:before{content:"";position:absolute;width:29px;height:29px;border:2px solid #fff;border-radius:50%;z-index:0}
+.float.chat:after{content:"";position:absolute;width:8px;height:8px;background:#fff;transform:rotate(42deg);border-radius:0 0 0 3px;bottom:10px;left:10px;z-index:0}
+.float.chat span{position:relative;z-index:1;font:700 21px/1 Arial,sans-serif;color:#fff;transform:rotate(-18deg);margin-top:-1px}
 @media(max-width:780px){
   .header{position:sticky;gap:12px}
   .header-call{display:none}
@@ -16,5 +19,5 @@
   .float{width:52px;height:52px;right:16px}
   .float.call{bottom:84px}
   .float.chat{bottom:22px;font-size:0}
-  .float.chat span{font-size:11px}
+  .float.chat span{font-size:22px}
 }
