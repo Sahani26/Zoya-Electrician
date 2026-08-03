@@ -3,6 +3,7 @@
 .float.chat{background:#25d366!important}
 .float.chat:before,.float.chat:after{display:none}
 .float.chat img{width:25px;height:25px;filter:brightness(0) invert(1)}
+.float.top{bottom:139px;background:#fff;color:var(--navy);border:1px solid #dbe2e8;font-size:21px;font-weight:700}
 @media(max-width:780px){
   .header{position:sticky;gap:12px}
   .header-call{display:none}
@@ -17,6 +18,7 @@
   .mobile-panel a{display:block;padding:12px 0;border-bottom:1px solid #edf1f4;font-size:14px;font-weight:800;color:var(--navy)}
   .mobile-panel a:last-child{border:0;margin-top:11px;padding:13px 16px;background:var(--gold);color:var(--navy);text-align:center}
   .float{width:52px;height:52px;right:16px}
+  .float.top{bottom:146px}
   .float.call{bottom:84px}
   .float.chat{bottom:22px;font-size:0}
   .float.chat img{width:27px;height:27px}
