@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import "./card-images.css";
+import "./mobile-controls.css";
 import { homeMetadata } from "@/lib/seo";
 
 const sans = DM_Sans({ variable: "--font-sans", subsets: ["latin"] });
