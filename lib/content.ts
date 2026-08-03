@@ -17,6 +17,7 @@ const services = [
   ["electrical-maintenance", "Electrical Maintenance", "Planned electrical maintenance that keeps everyday spaces dependable.", "12"],
   ["new-home-electrical-work", "New Home Electrical Work", "Thoughtful electrical planning and execution for new homes in Surat.", "13"],
   ["electrical-safety-inspection", "Electrical Safety Inspection", "A practical inspection to find electrical risks before they become disruptions.", "14"],
+  ["jhalar-installation", "Jhalar Installation", "Professional decorative jhalar light installation for homes, balconies, events and festive spaces in Surat.", "16"],
 ] as const;
 
 const areas = ["Adajan", "Vesu", "Piplod", "Pal", "Citylight", "Althan", "Athwa", "Bhatar", "Udhna", "Dindoli"];
